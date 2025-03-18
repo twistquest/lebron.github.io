@@ -1,0 +1,15 @@
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30vh;
+    flex-direction: column;
+}
+body {
+    background-color: black;
+}
+
+div > p {
+    color: white;
+    font-family: arial;
+}
