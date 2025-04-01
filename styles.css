@@ -5,6 +5,7 @@ div {
     margin-top: 30vh;
     flex-direction: column;
 }
+
 body {
     background-color: black;
 }
@@ -12,4 +13,9 @@ body {
 div > p {
     color: white;
     font-family: arial;
+}
+
+#bron {
+    transition: 1s ease-in-out;
+    border-radius: 50%;
 }
