@@ -2,7 +2,7 @@ const bron = document.getElementById("bron");
 
 let rotated = false;
 
-bron.addEventListener("click", (evt) => {
+bron.addEventListener("click", () => {
     if (rotated) {
         bron.style.transform = "rotate(0)";
         rotated = false;
